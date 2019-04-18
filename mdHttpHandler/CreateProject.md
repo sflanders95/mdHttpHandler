@@ -105,8 +105,8 @@ namespace mdHttpHandler
 ```xml
 <system.webServer>
   <handlers>
-    <add name="MdHandler" path="*.md" verb="*" type="mdHttpHandler.MarkdownIISHandler" resourceType="Unspecified" requireAccess="Read" preCondition="integratedMode" xdt:Transform="Insert"/>
-    <add name="MarkdownHandler" path="*.markdown" verb="*" type="mdHttpHandler.MarkdownIISHandler" resourceType="Unspecified" requireAccess="Read" preCondition="integratedMode" xdt:Transform="Insert"/>
+    <add name="MdHandler" path="*.md" verb="*" type="mdHttpHandler.MarkdownIISHandler" resourceType="Unspecified" requireAccess="Read" preCondition="integratedMode" />
+    <add name="MarkdownHandler" path="*.markdown" verb="*" type="mdHttpHandler.MarkdownIISHandler" resourceType="Unspecified" requireAccess="Read" preCondition="integratedMode" />
   </handlers>
 </system.webServer>
 ```
