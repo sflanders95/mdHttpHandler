@@ -7,6 +7,8 @@ It uses:
 - [Markdig Markdown][Markdig]: (https://github.com/lunet-io/markdig)
 - [Richard Slater's Syntax Hihglighting][SyntaxHigh]: https://github.com/RichardSlater/Markdig.SyntaxHighlighting
 
+See [mdHttpHandler/CreateProject.md](mdHttpHandler/CreateProject.md) to create/incorporate this project manually.
+
 \-[Steve][Me]
 
 [Markdig]: https://github.com/lunet-io/markdig
